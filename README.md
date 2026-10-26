@@ -23,6 +23,18 @@ Small, dependency-free Python projects that run in the terminal.
 - `wordle_game.py` - Guess a hidden five-letter word in six tries using letter-position clues.
 - `simon_says.py` - Watch a growing sequence of colors and repeat it from memory.
 
+## Run Simon Says
+
+Start the game with Python 3:
+
+```bash
+python3 simon_says.py
+```
+
+Choose **Play**, then repeat each displayed sequence using the color names
+`red`, `blue`, `green`, and `yellow`, separated by spaces. The sequence grows
+after each correct answer. Enter `q` to end the round and return to the menu.
+
 ## Run the Java game
 
 ```bash
